@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: #7f90e5;
+	color:#000;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+::selection{
+  color: #fff;
+  background: rgb(163, 166, 233);
+}
+.container{
+  width: 430px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+}
+
+
+.container label{
+  height: 170px;
+  display: flex;
+  cursor: pointer;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed #6990F2;
+}
+
+form :where(i ,p){
+  color: #6990F2;
+}
+
+
+form i{
+  font-size: 50px;
+}
+
+form p{
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.container .progress-bar{
+	height: 20px; 
+	border: 2px solid #7f90e5; 
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.container .progress{
+	height: 100%; 
+	background: #33dd33;
+	width: 0%;
+	border-radius: 10px;
+}
+
+.container .debug-area{
+	height: 100px; 
+	border: 2px solid #c2d1ee; 
+	overflow: auto;
+	border-radius: 5px;
+	font-size: 12px;
+	
+}
+
+.container button{
+	padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: #E8EAF6;
+    background-color: #5b63e5;
+    border: none;
+    border-radius: 20px;
+}
+
+.container button:hover{
+	background:  #161758;
+}
